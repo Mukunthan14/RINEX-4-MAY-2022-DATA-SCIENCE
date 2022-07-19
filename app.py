@@ -25,6 +25,7 @@ elif smoking == 'never smoked':
 elif smoking == 'smokes':
   s = 1
 
+input_data = [[age, hypertension, heart-disease, avg_glucose, bmi, Male, Female, fs, ns, s]]  
 pred = model.predict(input_data)
 if pred[0] == 1:
   op = 'Person has suffered stroke'
