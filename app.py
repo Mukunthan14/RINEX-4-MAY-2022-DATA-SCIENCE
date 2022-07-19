@@ -33,4 +33,4 @@ else:
   op = 'Person has not suffered stroke'
   
 if st.button('Predict'):  
-  print(op)
+  st.subheader(op)
