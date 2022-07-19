@@ -26,6 +26,7 @@ elif smoking == 'never smoked':
 elif smoking == 'smokes':
   s = 1
   
+scaler = StandardScaler()
 input_data = scaler.transform([[age, hypertension, heart_disease, avg_glucose, bmi, Male, Female, fs, ns, s]])
 pred = model.predict(input_data)
 if pred[0] == 1:
