@@ -1,5 +1,6 @@
 import streamlit as st
 import joblib
+from sklearn.preprocessing import StandardScaler
 import pandas
 model = joblib.load('Logistic regression model')
 st.title('LOGISTIC REGRESSION MODEL FOR STROKE')
